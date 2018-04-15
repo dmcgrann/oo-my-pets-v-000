@@ -22,4 +22,7 @@ class Owner
     @@all.size
   end
 
+  def self.species
+    "human"
+  end
 end
