@@ -4,7 +4,7 @@ class Owner
   @@owners = []
 
   def self.all
-    owners.each {|owner| owner.name}
+    @@owners.each {|owner| owner.name}
   end
 
 end
