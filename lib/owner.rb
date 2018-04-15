@@ -62,5 +62,6 @@ class Owner
 
   def list_pets
     @pets.collect {|pets| pets}
+  end
 
 end
