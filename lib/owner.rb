@@ -3,14 +3,11 @@ class Owner
   attr_accessor :pets
 
   def initialize
-    self
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def self.all
-    self
+  def self.reset_all
+    self.count += 0
   end
-
-  def self.rese
 
 end
