@@ -1,7 +1,7 @@
 require 'pry'
 class Owner
   attr_accessor :pets
-  @@owners = {}
+  @@owners = []
 
   def initialize(pets)
     @pets = {fishes: [], cats: [], dogs: []}
