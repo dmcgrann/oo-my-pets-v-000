@@ -7,7 +7,9 @@ class Owner
     @pets = []
   end
 
-
+  def add_pet(pet)
+    @pets << pet
+  end
   def self.all
     @@all
   end
