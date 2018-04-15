@@ -21,5 +21,5 @@ class Owner
   def self.cound
     @@all.size
   end
-  
+
 end
