@@ -4,7 +4,7 @@ class Owner
 
   def initialize
     self
-    @all << self
+    @@all << self
   end
 
 end
