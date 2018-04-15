@@ -54,8 +54,8 @@ class Owner
   end
 
   def sell_pets
-    if @pets.empty?
-      @pets.each {|pet| pet.mood}
+    pets.each do |pet|
+      pets.collect {|pet| pet.mood = "nervous"}
     end
   end
 
