@@ -1,9 +1,10 @@
 require 'pry'
 class Owner
-  attr_accessor :pets, :name, :cat, :dog, :fish
-  @@owners = []
+  attr_accessor :pets
+  @@all = []
 
   def self.all
+    @@all
   end
 
 end
