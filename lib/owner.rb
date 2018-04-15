@@ -1,9 +1,9 @@
 require 'pry'
 class Owner
-  attr_accessor :pets, :cat, :dog, :fish
+  attr_accessor :pets, :name, :cat, :dog, :fish
 
   def self.all
-    self.each {|owner| owner}
+    self.each {|owner| owner.name}
   end
 
 end
