@@ -52,5 +52,11 @@ class Owner
   def feed_fish
     pets[:fishes].map {|fish| fish.mood = "happy"}
   end
+
+  def sell_pets
+    if @pets.empty?
+      @pets.each {|pet| pet.mood}
+    end
+  end
   
 end
