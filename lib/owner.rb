@@ -1,9 +1,10 @@
 class Owner
-  attr_accessor :cat, :fish, :dog, :owner
+  attr_accessor :cat, :fish, :dog
   @@all = []
 
-  def self.all
+  def initialize
     self
+    @all << self
   end
 
 end
