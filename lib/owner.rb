@@ -1,4 +1,6 @@
+require 'pry'
 class Owner
+  binding.pry
   attr_accessor :name, :pets
   @@all = []
 
