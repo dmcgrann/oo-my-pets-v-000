@@ -58,5 +58,5 @@ class Owner
       @pets.each {|pet| pet.mood}
     end
   end
-  
+
 end
