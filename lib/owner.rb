@@ -1,5 +1,5 @@
 class Owner
-  
+
   @@all = []
   def initialize
     self
