@@ -1,9 +1,10 @@
 require 'pry'
 class Owner
   attr_accessor :pets, :name, :cat, :dog, :fish
+  @@owners = []
 
   def self.all
-    self.each {|owner| owner.name}
+    owners.each {|owner| owner.name}
   end
 
 end
