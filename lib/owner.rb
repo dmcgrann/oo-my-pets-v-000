@@ -22,7 +22,7 @@ class Owner
     @@all.size
   end
 
-  def self.species
-    @species = "human"
+  def species
+    "#{@species}"
   end
 end
