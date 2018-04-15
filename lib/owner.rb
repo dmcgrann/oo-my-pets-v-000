@@ -61,7 +61,7 @@ class Owner
   end
 
   def list_pets
-    @pets.collect {|pets| pets}
+    @pets.collect {|pets| "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and pets[:cats]} cat(s)."}
   end
 
 end
