@@ -3,8 +3,8 @@ class Owner
   attr_accessor :pets, :cat, :dog, :fish
   @@owners = []
 
-  def self.all
-    @@owners << self
+  def all
+    @@owners
   end
 
 end
