@@ -60,4 +60,7 @@ class Owner
     pets.clear
   end
 
+  def list_pets
+    @pets.collect {|pets| pets}
+
 end
