@@ -23,6 +23,6 @@ class Owner
   end
 
   def self.species
-    "human"
+    @species = "human"
   end
 end
