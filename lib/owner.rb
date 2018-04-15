@@ -22,7 +22,7 @@ class Owner
     @@all.size
   end
 
-  def species
-    "#{@species}"
+  def say_species
+    "#{species}"
   end
 end
