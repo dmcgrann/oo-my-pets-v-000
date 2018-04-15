@@ -4,7 +4,6 @@ class Owner
   @@owners = []
 
   def self.all
-    @@owners.collect {|owner| owner.name}
   end
 
 end
